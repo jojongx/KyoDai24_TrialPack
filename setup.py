@@ -10,11 +10,12 @@ setup(
     author="Joseph Benigno",
     author_email="jbenigno@ufl.edu",
     description="What I cannot create I do not understand!",
+    install_requires=[""],
 
     entry_points={
         "console_scripts":
         [
-            "main = KyoPack:main"
+            "greeting = KyoPack:greeting"
         ]
     }
 )
