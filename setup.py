@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="KyoPack",
-    version="0.1",
+    version="0.2",
     packages=["KyoPack", ],
     url="https://github.com/jojongx/KyoDai24_TrialPack",
     license="MIT",
@@ -15,7 +15,7 @@ setup(
     entry_points={
         "console_scripts":
         [
-            "greeting = KyoPack:greeting"
+            "KyoGreeting = KyoPack.greeting:greet"
         ]
     }
 )
